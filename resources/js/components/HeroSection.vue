@@ -2,7 +2,7 @@
     <div class="hero-section" style="margin-bottom: 3rem;">
         <div v-for="(image, index) in images" :key="index" class="slide">
             <!--<h3>{{ image.text }}</h3>-->
-            <img :src="image.img" alt="" />
+            <img :src="image.img" alt="" class="full-width" />
         </div>
     </div>
 </template>

@@ -22,6 +22,10 @@
                 margin: 0;
             }
 
+            .full-width {
+                width: 100%;
+            }
+
             .full-height {
                 height: 100vh;
             }

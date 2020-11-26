@@ -3334,7 +3334,10 @@ var render = function() {
     { staticClass: "hero-section", staticStyle: { "margin-bottom": "3rem" } },
     _vm._l(_vm.images, function(image, index) {
       return _c("div", { key: index, staticClass: "slide" }, [
-        _c("img", { attrs: { src: image.img, alt: "" } })
+        _c("img", {
+          staticClass: "full-width",
+          attrs: { src: image.img, alt: "" }
+        })
       ])
     }),
     0
